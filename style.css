@@ -1,0 +1,77 @@
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  font-family: helvetica;
+  background-size: cover;
+}
+@font-face {
+  font-family: "helvetica";
+  src: url("font/helvetica.ttf") format(ttf);
+  src: url("font/helvetica-Bold.ttf") format(ttf);
+}
+
+h1 {
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
+
+p {
+  font-size: 15px;
+}
+
+.button {
+  width: 100%;
+  padding: 1%;
+  text-align: center;
+  border-radius: 2px;
+  background-color: #00dd00;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 65%;
+  height: auto;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.head {
+  color: #00dd00;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.info-monopattino {
+  color: rgb(240, 234, 234);
+  font-size: 20px;
+  margin-top: 15px;
+  line-height: 30%;
+}
+
+.orange-stato {
+  width: 36%;
+  height: 30px;
+  margin-top: -6px;
+  border-radius: 5px;
+  background-color: rgb(230, 164, 43);
+}
+
+.green-stato {
+  width: 60%;
+  height: 30px;
+  margin-top: -6px;
+  border-radius: 5px;
+  background-color: rgb(23, 143, 23);
+}
+
+.red-stato {
+  width: 20%;
+  height: 30px;
+  margin-top: -6px;
+  border-radius: 5px;
+  background-color: rgb(224, 77, 77);
+}
